@@ -1,0 +1,44 @@
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* background: linear-gradient(45deg, #ffcccb, #ffe4b5, #fffacd, #d3d3d3, #add8e6, #e6e6fa, #f5f5dc); */
+    background: linear-gradient(45deg, 
+      rgba(255, 0, 0, 0.195), 
+      rgba(255, 127, 0, 0.195), 
+      rgba(255, 255, 0, 0.195), 
+      rgba(0, 255, 0, 0.195), 
+      rgba(0, 0, 255, 0.195), 
+      rgba(75, 0, 130, 0.195), 
+      rgba(138, 43, 226, 0.195));
+    background-size: 600% 600%;
+    animation: rainbow 15s ease infinite;
+}
+
+@keyframes rainbow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.container {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.left-content {
+    width: 25%;
+    background-color: pink;
+}
+.right-content {
+    width: 75%;
+    background-color: plum;
+}
