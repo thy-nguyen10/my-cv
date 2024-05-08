@@ -1,5 +1,5 @@
 .content {
-    width: 100vw;
+    width: auto;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -35,10 +35,10 @@
     justify-content: center;
 }
 .left-content {
-    width: 25%;
-    background-color: pink;
+    width: 30%;
+    background-color: rgba(221, 160, 221, 0.258);
 }
 .right-content {
-    width: 75%;
-    background-color: plum;
+    width: 70%;
+    background-color: rgba(221, 160, 221, 0.258);
 }

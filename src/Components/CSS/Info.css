@@ -1,0 +1,30 @@
+.info {
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-between;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 28px;
+    gap: 20px;
+}
+.icons svg {
+    font-size: 20px;
+}
+.text {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    gap: 12px;
+    text-transform: uppercase;
+}
+.text h1 {
+    font-size: 38px;
+    font-weight: 700;
+}
+.text h2 {
+    font-size: 20px;
+}
