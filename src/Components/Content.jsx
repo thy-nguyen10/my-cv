@@ -1,6 +1,7 @@
 import React from 'react'
 import './CSS/Content.css'
 import Image from './Image'
+import Info from './Info'
 
 const Content = () => {
   return (
@@ -10,7 +11,7 @@ const Content = () => {
           <Image/>
         </div>
         <div className="right-content">
-          hello
+          <Info/>
         </div>
       </div>
     </div>
