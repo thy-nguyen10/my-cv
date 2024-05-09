@@ -2,6 +2,7 @@ import React from 'react'
 import './CSS/Content.css'
 import Image from './Image'
 import Info from './Info'
+import Aboutme from './Aboutme'
 
 const Content = () => {
   return (
@@ -9,9 +10,10 @@ const Content = () => {
       <div className="container">
         <div className="left-content">
           <Image/>
+          <Info/>
         </div>
         <div className="right-content">
-          <Info/>
+          <Aboutme/>
         </div>
       </div>
     </div>

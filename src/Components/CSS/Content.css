@@ -4,7 +4,6 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    /* background: linear-gradient(45deg, #ffcccb, #ffe4b5, #fffacd, #d3d3d3, #add8e6, #e6e6fa, #f5f5dc); */
     background: linear-gradient(45deg, 
       rgba(255, 0, 0, 0.195), 
       rgba(255, 127, 0, 0.195), 
